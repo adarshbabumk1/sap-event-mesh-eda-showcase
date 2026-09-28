@@ -2,7 +2,7 @@
 SAP Event Mesh Consumer & Idempotent Processor Simulator
 Simulates a consumer pulling events from a queue and performing deduplication.
 
-Author: Adarsh (SAP Integration Architect)
+Author: Adarsh (Tech Lead - SAP Integration)
 """
 
 import json

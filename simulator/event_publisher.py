@@ -2,7 +2,7 @@
 SAP Event Mesh & CloudEvents Publisher Simulator
 Simulates SAP S/4HANA Business Event emission to SAP Event Mesh via REST / Webhook API.
 
-Author: Adarsh (SAP Integration Architect)
+Author: Adarsh (Tech Lead - SAP Integration)
 """
 
 import json
