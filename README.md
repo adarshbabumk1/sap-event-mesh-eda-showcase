@@ -5,7 +5,7 @@
 [![AMQP 1.0](https://img.shields.io/badge/Protocol-AMQP_1.0-E65100?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.amqp.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-An architectural reference showcase demonstrating **Event-Driven Architecture (EDA)** using **SAP Event Mesh** and **SAP Advanced Event Mesh (AEM)** in the **SAP BTP Integration Suite**.
+An architectural reference showcase demonstrating **Event-Driven Architecture (EDA)** using **SAP Event Mesh** in the **SAP BTP Integration Suite**.
 
 Decouple mission-critical enterprise systems (SAP S/4HANA, Salesforce, Third-Party Microservices) through asynchronous, guaranteed-delivery event pipelines.
 
@@ -16,10 +16,9 @@ Decouple mission-critical enterprise systems (SAP S/4HANA, Salesforce, Third-Par
 1. [Why Event-Driven Architecture for SAP?](#-why-event-driven-architecture-for-sap)
 2. [Architecture Blueprint](#-architecture-blueprint)
 3. [CloudEvents Standard Payloads](#-cloudevents-standard-payloads)
-4. [Topic Hierarchy & Subscription Rules](#-topic-hierarchy--subscription-rules)
-5. [Event Publisher & Consumer Simulator](#-event-publisher--consumer-simulator)
-6. [Idempotency & Dead Letter Queue (DLQ)](#-idempotency--dead-letter-queue-dlq)
-7. [SAP Event Mesh vs. Advanced Event Mesh](#-sap-event-mesh-vs-advanced-event-mesh)
+4. [Repository Structure](#-repository-structure)
+5. [Idempotency & Dead Letter Queue (DLQ)](#-idempotency--dead-letter-queue-dlq)
+6. [Enterprise Queuing & Webhook Guide](docs/Event_Mesh_Enterprise_Queuing_Architecture.md)
 
 ---
 
@@ -93,7 +92,7 @@ All events adhere strictly to the CNCF **CloudEvents 1.0.2** specification:
 │   └── requirements.txt                   # Dependency file (requests, pika, stomp)
 └── docs/
     ├── Topic_Hierarchy_Design_Guide.md    # Multi-tenant topic naming standards
-    └── EventMesh_vs_AdvancedEventMesh.md  # Architectural feature comparison
+    └── Event_Mesh_Enterprise_Queuing_Architecture.md # Queues, webhooks & DLQ governance
 ```
 
 ---

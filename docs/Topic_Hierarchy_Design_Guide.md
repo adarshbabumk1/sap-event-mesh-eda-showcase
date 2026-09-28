@@ -19,8 +19,8 @@ sap / prd / s4hana / sales / order / created
  │     │      │        │       │       │
  │     │      │        │       │       └── Action: created, changed, deleted, blocked
  │     │      │        │       └── Business Entity: order, invoice, customer, material
- │     │      │        └── Functional Domain: sales, finance, procurement, hr
- │     │      └── Source Instance: s4hana, ecc, successfactors, ariba
+ │     │      │        └── Functional Domain: sales, finance, procurement, logistics
+ │     │      └── Source Instance: s4hana, ecc, ariba, logistics
  │     └── Environment: dev, qa, stg, prd
  └── Organization Root
 ```
