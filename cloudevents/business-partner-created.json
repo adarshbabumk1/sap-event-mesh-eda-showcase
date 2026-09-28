@@ -1,0 +1,21 @@
+{
+  "specversion": "1.0",
+  "id": "e4b2d189-9430-4e78-9a21-65f5a819b101",
+  "type": "sap.s4.beh.businesspartner.v1.BusinessPartner.Created.v1",
+  "source": "/default/sap.s4.beh/S4HANA_PRD_100",
+  "subject": "BusinessPartner/0000100042",
+  "time": "2026-09-28T06:30:00Z",
+  "datacontenttype": "application/json",
+  "traceparent": "00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01",
+  "data": {
+    "BusinessPartner": "0000100042",
+    "BusinessPartnerCategory": "2",
+    "BusinessPartnerGrouping": "BP02",
+    "OrganizationBPName1": "Acme Global Logistics GmbH",
+    "Country": "DE",
+    "CityName": "Walldorf",
+    "PostalCode": "69190",
+    "CreationDate": "2026-09-28",
+    "CreatedByUser": "J_DOE_S4"
+  }
+}
