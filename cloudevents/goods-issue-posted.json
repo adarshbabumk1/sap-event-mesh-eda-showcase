@@ -1,0 +1,25 @@
+{
+  "specversion": "1.0",
+  "id": "c9284102-45bb-4122-89a1-098511aa2319",
+  "type": "sap.s4.beh.materialdocument.v1.MaterialDocument.Created.v1",
+  "source": "/default/sap.s4.beh/<S4HANA_SYSTEM_ID>",
+  "subject": "MaterialDocument/4900028192/2026",
+  "time": "2026-09-28T07:40:00Z",
+  "datacontenttype": "application/json",
+  "data": {
+    "MaterialDocument": "4900028192",
+    "MaterialDocumentYear": "2026",
+    "GoodsMovementType": "601",
+    "DeliveryDocument": "80001928",
+    "Plant": "1010",
+    "StorageLocation": "101A",
+    "Items": [
+      {
+        "Item": "0001",
+        "Material": "MAT-VALVE-901",
+        "Quantity": 250.0,
+        "UnitOfMeasure": "PCE"
+      }
+    ]
+  }
+}
